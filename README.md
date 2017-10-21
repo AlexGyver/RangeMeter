@@ -19,8 +19,9 @@
 
 <a id="chapter-1"></a>
 ## Папки
-- **Low-Power** - библиотека сна, закинуть в libraries (читай [инструкцию](#chapter-4))
-- **knock_lock** - прошивка для Arduino, файлы в папках открыть в Arduino IDE (читай [инструкцию](#chapter-4))
+**ВНИМАНИЕ! Если это твой первый опыт работы с Arduino, читай инструкцию](#chapter-4)**
+- **Low-Power** - библиотека сна
+- **knock_lock** - прошивка для Arduino
 
 <a id="chapter-2"></a>
 ## Схема

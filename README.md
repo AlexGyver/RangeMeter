@@ -20,8 +20,6 @@
 <a id="chapter-1"></a>
 ## Папки
 - **Low-Power** - библиотека сна
-`C:\Program Files (x86)\Arduino\libraries\` (Windows x64)  
-`C:\Program Files\Arduino\libraries\` (Windows x86)
 - **knock_lock** - прошивка для Arduino, файлы в папках открыть в Arduino IDE (читай [FAQ](#chapter-5))
 
 <a id="chapter-2"></a>

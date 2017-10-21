@@ -7,9 +7,6 @@
 * [Как скачать и прошить](#chapter-4)
 * [FAQ](#chapter-5)
 * [Полезная информация](#chapter-6)
-* [Мой сайт](http://alexgyver.ru/)
-* [Основной YouTube канал](https://www.youtube.com/channel/UCgtAOyEQdAyjvm9ATCi_Aig?sub_confirmation=1)
-* [YouTube канал про Arduino](https://www.youtube.com/channel/UC4axiS76D784-ofoTdo5zOA?sub_confirmation=1)
 
 <a id="chapter-0"></a>
 ## Описание проекта

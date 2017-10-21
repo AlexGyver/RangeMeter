@@ -1,1 +1,102 @@
-# RangeMeter
+[![AlexGyver YouTube](http://alexgyver.ru/git_banner.jpg)](https://www.youtube.com/channel/UCgtAOyEQdAyjvm9ATCi_Aig?sub_confirmation=1)
+# Дальномер своими руками на Arduino
+* [Описание проекта](#chapter-0)
+* [Папки проекта](#chapter-1)
+* [Схемы подключения](#chapter-2)
+* [Материалы и компоненты](#chapter-3)
+* [Как скачать и прошить](#chapter-4)
+* [FAQ](#chapter-5)
+* [Полезная информация](#chapter-6)
+* [Мой сайт](http://alexgyver.ru/)
+* [Основной YouTube канал](https://www.youtube.com/channel/UCgtAOyEQdAyjvm9ATCi_Aig?sub_confirmation=1)
+* [YouTube канал про Arduino](https://www.youtube.com/channel/UC4axiS76D784-ofoTdo5zOA?sub_confirmation=1)
+
+<a id="chapter-0"></a>
+## Описание проекта
+Замок с сервоприводом и датчиком звука/вибрации/касания
+- "Запоминает" секретный стук, а именно - время между "ударами"
+- Умеет распознавать слишком быстрое нажатие, слишком медленное, ну и само собой "правильное" нажатие
+- Работает от аппаратного прерывания, что даёт очень стабильную и чёткую отработку "стуков"
+- Использована библиотека сна, потребление в режиме ожидания около 0.1 мА
+- Подробности в видео: https://youtu.be/lsCDHxN6abU
+
+<a id="chapter-1"></a>
+## Папки
+- **Low-Power** - библиотека сна
+`C:\Program Files (x86)\Arduino\libraries\` (Windows x64)  
+`C:\Program Files\Arduino\libraries\` (Windows x86)
+- **knock_lock** - прошивка для Arduino, файлы в папках открыть в Arduino IDE (читай [FAQ](#chapter-5))
+
+<a id="chapter-2"></a>
+## Схема
+![СХЕМА](https://github.com/AlexGyver/SecretKnockLock/blob/master/scheme.jpg)
+
+<a id="chapter-3"></a>
+## Материалы и компоненты
+* Arduino NANO http://ali.ski/s6zbn
+* Дисплей http://ali.ski/O4jPT6
+* Дальномер http://ali.ski/KqpAC
+* Батарейный отсек http://ali.ski/QGkOp
+* Корпус http://ali.ski/RR_8z
+* Выключатели http://ali.ski/prutl2
+* Монтажный провод http://ali.ski/cHsHMy
+* Всё для пайки http://alexgyver.ru/all-for-soldering/
+
+## Вам скорее всего пригодится
+* [Всё для пайки (паяльники и примочки)](http://alexgyver.ru/all-for-soldering/)
+* [Недорогие инструменты](http://alexgyver.ru/my_instruments/)
+* [Все существующие модули и сенсоры Arduino](http://alexgyver.ru/arduino_shop/)
+* [Электронные компоненты](http://alexgyver.ru/electronics/)
+* [Аккумуляторы и зарядные модули](http://alexgyver.ru/18650/)
+
+<a id="chapter-4"></a>
+## Как скачать и прошить
+* [Загрузка прошивки](http://alexgyver.ru/arduino-first/) - ультра подробная статья по началу работы с Ардуино, ознакомиться первым делом
+* Скачать архив с проектом
+> На главной странице проекта (где ты читаешь этот текст) вверху справа зелёная кнопка **Clone or download**, вот её жми, там будет **Download ZIP**
+* Установить библиотеки в
+`C:\Program Files (x86)\Arduino\libraries\` (Windows x64)  
+`C:\Program Files\Arduino\libraries\` (Windows x86)
+* Подключить Ардуино к компьютеру
+* Запустить файл прошивки
+* Настроить (COM порт, модель Arduino NANO 328)
+* Нажать загрузить
+* Пользоваться
+
+## Настройки в коде
+    difficulty 100  // миллисекунд на реакцию (плюс минус)
+    max_knock 30    // число запоминаемых "стуков"
+    close_angle 85  // угол закрытия
+    open_angle 180  // угол открытия
+    debug 1         // режим отладки - вывод в порт информации о процессе игры
+
+<a id="chapter-5"></a>
+## FAQ
+### Основные вопросы
+В: Как скачать с этого грёбаного сайта?  
+О: На главной странице проекта (где ты читаешь этот текст) вверху справа зелёная кнопка **Clone or download**, вот её жми, там будет **Download ZIP**
+
+В: Скачался какой то файл .zip, куда его теперь?  
+О: Это архив. Можно открыть стандартными средствами Windows, но думаю у всех на компьютере установлен WinRAR, архив нужно правой кнопкой и извлечь.
+
+В: Я совсем новичок! Что мне делать с Ардуиной, где взять все программы?  
+О: Читай и смотри видос http://alexgyver.ru/arduino-first/
+
+В: Компьютер никак не реагирует на подключение Ардуины!  
+О: Возможно у тебя зарядный USB кабель, а нужен именно data-кабель, по которому можно данные передавать
+
+В: Ошибка! Скетч не компилируется!  
+О: Путь к скетчу не должен содержать кириллицу. Положи его в корень диска.
+
+В: Сколько стоит?  
+О: Ничего не продаю.
+
+### Вопросы по этому проекту
+
+<a id="chapter-6"></a>
+## Полезная информация
+* [Мой сайт](http://alexgyver.ru/)
+* [Основной YouTube канал](https://www.youtube.com/channel/UCgtAOyEQdAyjvm9ATCi_Aig?sub_confirmation=1)
+* [YouTube канал про Arduino](https://www.youtube.com/channel/UC4axiS76D784-ofoTdo5zOA?sub_confirmation=1)
+* [Мои видеоуроки по пайке](https://www.youtube.com/playlist?list=PLOT_HeyBraBuMIwfSYu7kCKXxQGsUKcqR)
+* [Мои видеоуроки по Arduino](http://alexgyver.ru/arduino_lessons/)

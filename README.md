@@ -28,13 +28,13 @@
 
 <a id="chapter-3"></a>
 ## Материалы и компоненты
-* Arduino NANO http://ali.ski/s6zbn
-* Дисплей http://ali.ski/O4jPT6
-* Сонар http://ali.ski/KqpAC
-* Батарейный отсек http://ali.ski/QGkOp
-* Корпус http://ali.ski/RR_8z
-* Выключатели http://ali.ski/prutl2
-* Монтажный провод http://ali.ski/cHsHMy
+* Arduino NANO https://ali.ski/miRRf
+* Дисплей https://ali.ski/1Z5zs
+* Сонар https://ali.ski/ZV2iK9
+* Батарейный отсек https://ali.ski/skfXW9
+* Корпус https://ali.ski/PvBik
+* Выключатели https://ali.ski/qmicL
+* Монтажный провод https://ali.ski/lMvWlV
 * Всё для пайки http://alexgyver.ru/all-for-soldering/
 
 ## Вам скорее всего пригодится

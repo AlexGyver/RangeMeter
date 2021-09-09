@@ -27,16 +27,6 @@
 ![СХЕМА](https://github.com/AlexGyver/RangeMeter/blob/master/scheme.jpg)
 
 <a id="chapter-3"></a>
-## Материалы и компоненты
-* Arduino NANO http://ali.ski/s6zbn
-* Дисплей http://ali.ski/O4jPT6
-* Сонар http://ali.ski/KqpAC
-* Батарейный отсек http://ali.ski/QGkOp
-* Корпус http://ali.ski/RR_8z
-* Выключатели http://ali.ski/prutl2
-* Монтажный провод http://ali.ski/cHsHMy
-* Всё для пайки http://alexgyver.ru/all-for-soldering/
-
 ## Вам скорее всего пригодится
 * [Всё для пайки (паяльники и примочки)](http://alexgyver.ru/all-for-soldering/)
 * [Недорогие инструменты](http://alexgyver.ru/my_instruments/)
